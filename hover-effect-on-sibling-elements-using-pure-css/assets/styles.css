@@ -1,0 +1,31 @@
+.img-wrp{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+}
+img{
+    border-radius: 5%;
+    border: 2px solid ;
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+}
+.img-wrp:has(img:hover)>img:not(:hover){
+    filter: blur(2px) grayscale(100%);
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
