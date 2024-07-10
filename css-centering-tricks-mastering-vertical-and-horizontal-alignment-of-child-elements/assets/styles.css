@@ -1,0 +1,55 @@
+.parent {
+    height: 95vh; 
+    border: 5px dashed #250a50; 
+    background-color: #f4dff8;
+    width: 100%;
+}
+.child {
+    width: 200px;
+    height: 100px;
+    background-color: #ae00ff;
+    transition: all .5s ease-in-out;
+    padding: 20px;
+}
+
+/* 1. Using Flexbox */
+
+/* .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/* 2. Using Grid */
+/* .parent{
+    display: grid;
+    place-items: center;
+} */
+
+/* 3. Using Absolute Positioning */
+/* .parent{
+    position: relative;
+}
+.child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* 4. Using CSS Grid with auto margins */
+/* .parent{
+    display: grid;
+}
+.child{
+    margin: auto;
+} */
+
+/* 5. Using flexbox with auto margins */
+.parent{
+    display: flex;
+}
+.child{
+    margin: auto;
+}
